@@ -1,0 +1,27 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
+    "babel": "babel src/index.ts --out-file dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/react": "^18.2.67",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
